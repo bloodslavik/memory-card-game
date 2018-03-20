@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <div class="helper">
+    <ul>
+      <li class="li-helper" *ngFor="let el of helperList">
+        <h3 class="helper-title">{{el.title}}</h3>
+        <p>{{el.text}}</p>
+      </li>
+    </ul>
+    <button class="but-helper" mat-button routerLink="/levels">Дальше</button>
+  </div>
+</div>

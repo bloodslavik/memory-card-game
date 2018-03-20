@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+}
+.main-logo {
+  width: 100%;
+  margin: 90px auto;
+  display: flex;
+  flex-direction: column;
+  }
+img {
+  margin: auto;
+  min-width: 320px;
+}
+.but-start {
+  background-color: #279b42;
+  color: aliceblue;
+}
+.tittle {
+  color: gainsboro;
+  margin: 10px auto;
+  cursor: pointer;
+}
+button[mat-button] {
+  font-size: 14pt;
+  border-radius: 6px;
+  margin: 10px auto;
+}
+

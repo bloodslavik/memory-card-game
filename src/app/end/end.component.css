@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+}
+.the-end {
+  width: 100%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 16pt;
+  color: aliceblue;
+  justify-content: center;
+}
+.the-end p {
+  text-align: center;
+}
+img {
+  margin: auto;
+  min-width: 320px;
+}
+button {
+  background-color: aliceblue;
+  color: #279b42;
+  border-radius: 6px;
+  font-size: 14pt;
+}
+.main-but {
+  margin: 20px auto;
+}

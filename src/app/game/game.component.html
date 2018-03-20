@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <div class="main-window">
+    <div class="labels">
+      <p class="new-game" (click)="startGame()">Новая игра</p>
+      <p>{{mainTimer.title}} {{mainTimer.count}} сек.</p>
+      <p data-tid="Menu-scores">Очков {{currentPoint}}</p>
+    </div>
+      <ul class="row-cards" *ngFor="let i of iteratorArray">
+        <li *ngFor=" let card of gamingCards.slice(i * numberOfCardsInString ,(i+1) * numberOfCardsInString)"
+            class="card-li">
+          <img [src]="card.url" (click)="checkCard(card)" width="100%">
+        </li>
+      </ul>
+  </div>
+</div>

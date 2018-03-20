@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+}
+.labels {
+  display: flex;
+  margin: 20px 0;
+}
+.labels p {
+  margin: auto;
+  font-size: 13pt;
+  color: azure;
+}
+.new-game {
+  cursor: pointer;
+}
+.main-window {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.row-cards {
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+}
+.card-li {
+  width: inherit;
+  cursor: pointer;
+  margin: 2px 4px;
+  max-width: 110px;
+}
+
+

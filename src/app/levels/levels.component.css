@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+ul {
+  list-style: none;
+  margin: 20px auto;
+  display: flex;
+  width: 80%;
+}
+li {
+  margin: auto;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid aliceblue;
+  cursor: pointer;
+}
+li:first-child {
+  border: none;
+}
+img {
+  margin: auto;
+  min-width: 100px;
+}
+li p {
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 4px;
+}
+.sizing {
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-size: 18pt;
+  color: whitesmoke;
+}
+.level-name {
+  color: azure;
+}

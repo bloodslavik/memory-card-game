@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+}
+.main-window {
+  width: 100%;
+  margin: 160px auto;
+  color: aliceblue;
+  display: inherit;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  font-size: 24pt;
+  margin: 0 auto;
+  justify-content: center;
+}
+.scale {
+  transform: scale(-1,1);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px auto;
+}
+button {
+  margin: 20px auto;
+  padding: 0 6pt;
+  font-size: 12pt;
+  color: #279b42;
+  background-color: aliceblue;
+  border-radius: 6px;
+}
+.text-description {
+  margin-top: 6px;
+}
